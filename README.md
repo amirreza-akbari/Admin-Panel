@@ -26,5 +26,3 @@ A complete Android application with Java, XML, and PHP backend for managing quiz
 - **Database**: MySQL
 - **Email**: PHPMailer/SMTP
 - **Security**: Prepared statements, JWT tokens
-
-## 📁 Project Structure
