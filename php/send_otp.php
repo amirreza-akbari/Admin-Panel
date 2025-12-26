@@ -18,8 +18,8 @@ $otp = rand(100000, 999999);
 $file = "otp_" . md5($email) . ".txt";
 file_put_contents($file, $otp);
 
-$from_email = "no-reply@mrbackend.ir"; // ایمیل واقعی دامنه خودت
-$from_name = "MRBackend";               // نام فرستنده
+$from_email = "no-reply@mrbackend.ir";
+$from_name = "MRBackend";             
 $subject = "کد ورود شما";
 
 $message = "
